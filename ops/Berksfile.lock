@@ -1,0 +1,10 @@
+DEPENDENCIES
+  ntp
+  timezone
+    git: git://github.com/pearj/cookbooks.git
+    revision: 5e745f34cc90ed54a01e7c9ae50282c177345b81
+    rel: timezone
+
+GRAPH
+  ntp (1.6.4)
+  timezone (0.0.2)

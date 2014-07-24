@@ -1,0 +1,21 @@
+{
+    "name": "redmine-alminium",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "override_attributes": {
+        "ntp": {
+            "servers": ["ntp.jst.mfeed.ad.jp"]
+        },
+        "tz": "JST",
+        "alminium": {
+            "ALM_HOSTNAME": "redmine.example.com",
+            "SSL": "n",
+            "JENKINS": "y"
+        }
+    },
+    "run_list": [
+        "recipe[timezone]",
+        "recipe[ntp]",
+        "recipe[base]"
+    ]
+}

@@ -1,0 +1,4 @@
+source "https://api.berkshelf.com"
+
+cookbook 'ntp'
+cookbook 'timezone', git: "git://github.com/pearj/cookbooks.git", rel: "timezone"
