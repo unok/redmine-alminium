@@ -8,7 +8,7 @@
         },
         "tz": "JST",
         "alminium": {
-            "ALM_HOSTNAME": "redmine.example.com",
+            "ALM_HOSTNAME": "proj.suehiro.ne.jp",
             "SSL": "n",
             "JENKINS": "y"
         }
