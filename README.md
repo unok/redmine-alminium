@@ -4,7 +4,7 @@ Vagrant with Chef Cookbook for Redmine
 概要
 ----
 
-ALMinium ( http://alminium.github.io/alminium/git.html ) を利用して Redmine の環境を構築する Vagrant ファイルです。操作自体は Chef で記述していますので、その部分のみの利用も可能です。
+ALMinium ( https://github.com/alminium/alminium/ ) を利用して Redmine の環境を構築する Vagrant ファイルです。操作自体は Chef で記述していますので、その部分のみの利用も可能です。
 いくつか plugin を追加しています。詳しくはソースを見てください。
 
 Chefだけ使う場合
